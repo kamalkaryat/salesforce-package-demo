@@ -2,11 +2,19 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "qwert-asdf",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": ""
     }
   ],
   "name": "salesforce-package-demo",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "58.0"
+  "sourceApiVersion": "58.0",
+  "packageAliases": {
+    "qwert-asdf": "0Ho5j000000CatuCAC",
+    "qwert-asdf@0.1.0-1": "04t5j000000dNiFAAU"
+  }
 }
